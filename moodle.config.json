@@ -68,18 +68,7 @@
         "zh-tw": "正體中文"
     },
     "wsservice": "moodle_mobile_app",
-    "demo_sites": {
-        "student": {
-            "url": "https://school.moodledemo.net",
-            "username": "student",
-            "password": "moodle25"
-        },
-        "teacher": {
-            "url": "https://school.moodledemo.net",
-            "username": "teacher",
-            "password": "moodle25"
-        }
-    },
+   
     "defaultZoomLevel": "none",
     "zoomlevels": {
         "none": 100,
@@ -87,12 +76,17 @@
         "high": 120
     },
     "customurlscheme": "moodlemobile",
-    "sites": [],
+    "sites": [{
+        "name": "Masjid Net",
+        "alias": "Masjid Net CMS System",
+        "url": "https://www.ourmasjid.net",
+        "staging": false
+    }],
     "multisitesdisplay": "",
     "sitefindersettings": {},
     "onlyallowlistedsites": false,
     "forcedefaultlanguage": false,
-    "privacypolicy": "https://moodle.net/moodle-app-privacy/",
+    "privacypolicy": "https:\/\/www.ourmasjid.net\/classnet\/privacy_policy\/index.html",
     "notificoncolor": "#f98012",
     "enableanalytics": false,
     "forceColorScheme": "",
